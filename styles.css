@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato',sans-serif;
+}
+
+body{
+  font-family:sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding-left: 0;
+  padding-right: 0;
+  background-color : white;
+  color: black;
+}
+
+nav{
+  width: 100%;
+  background-color: #2B2B2B;
+  overflow: hidden;
+}
+
+nav ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 7px;
+
+}
+
+nav ul li{
+  display: inline-block;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  padding: 20px 20px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+}
+
+.logo{
+
+  float: left;
+  padding: 10px 0 10px;
+}
+
+.about .h1{
+  padding: 10;
+  padding-left: 150;
+  padding-bottom: 30;
+}
+.about .img{
+  padding-left: 30;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contact .column1 {
+  float: left;
+  width: 33.3%;
+
+}
+
+/* Clear floats after the columns */
+.contact .row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
